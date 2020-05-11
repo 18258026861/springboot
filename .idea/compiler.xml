@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springbott-shiro" />
+        <module name="shiro" />
+        <module name="springboot-date" />
+        <module name="security" />
+        <module name="swagger" />
+        <module name="springboot-web" />
+        <module name="springboot-serurity" />
+        <module name="springboot-mybatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1" target="1.8" />
+      <module name="security" target="1.8" />
+      <module name="shiro" target="1.8" />
+      <module name="springboot" target="1.8" />
+      <module name="springboot-date" target="1.8" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-mybatis (1)" target="1.8" />
+      <module name="springboot-serurity" target="1.8" />
+      <module name="springboot-web" target="1.8" />
+      <module name="springbott-shiro" target="1.8" />
+      <module name="swagger" target="1.8" />
+      <module name="web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="1" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="shiro" options="-parameters" />
+      <module name="springboot" options="-parameters" />
+      <module name="springboot-date" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mybatis (1)" options="-parameters" />
+      <module name="springboot-serurity" options="-parameters" />
+      <module name="springboot-web" options="-parameters" />
+      <module name="springbott-shiro" options="-parameters" />
+      <module name="swagger" options="-parameters" />
+      <module name="web" options="-parameters" />
+    </option>
+  </component>
+</project>

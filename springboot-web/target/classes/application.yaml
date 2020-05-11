@@ -1,0 +1,8 @@
+#标注国际化文件位置
+spring:
+  messages:
+    basename: i18n.login
+
+#时间日期的格式
+  mvc:
+    date-format: yyyy-MM-dd

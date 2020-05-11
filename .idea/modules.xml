@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-serurity/security/security.iml" filepath="$PROJECT_DIR$/springboot-serurity/security/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-serurity/shiro/shiro.iml" filepath="$PROJECT_DIR$/springboot-serurity/shiro/shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-date/springboot-date.iml" filepath="$PROJECT_DIR$/springboot-date/springboot-date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-date/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-date/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-serurity/springboot-serurity.iml" filepath="$PROJECT_DIR$/springboot-serurity/springboot-serurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-serurity/springbott-shiro/springbott-shiro.iml" filepath="$PROJECT_DIR$/springboot-serurity/springbott-shiro/springbott-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger/swagger.iml" filepath="$PROJECT_DIR$/swagger/swagger.iml" />
+    </modules>
+  </component>
+</project>

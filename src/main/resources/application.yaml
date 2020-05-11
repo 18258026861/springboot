@@ -1,0 +1,43 @@
+#springboot的多环境配置，可以选择激活哪一个
+spring:
+  profiles:
+    active: test
+#使用---分割
+---
+server:
+  port: 8083
+spring:
+  profiles: test
+
+---
+server:
+  port: 8082
+spring:
+  profiles: work
+---
+server:
+  port: 8084
+spring:
+  profiles: up
+
+
+
+# 可以存储对象
+student:
+  #可以写方法，比properties高级
+  name: YY${random.uuid}
+  age: 22
+
+#行内写法
+student1: {name: YY,age: 22}
+
+
+#数组
+pets:
+  - cat
+  - dog
+  - pig
+
+pets1: [cat,dog,pig]
+
+#设置配置类的属性,配置类的Configuration和配置文件绑定，那么prefix对应的就是类名，就可以设置类名的属性
